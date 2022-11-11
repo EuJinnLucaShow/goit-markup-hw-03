@@ -1,0 +1,169 @@
+:root {
+    --primary-text-color: #212121;
+    --second-text-color: #757575;
+    --primary-white-color: #FFFFFF;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        
+        color: #2196F3;        
+}
+
+.logo-footer {
+    color: #FFFFFF;
+}
+
+span {
+    color: #000000;
+}
+
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
+
+.mail {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+
+        color: var(--second-text-color);
+}
+
+.tel {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: var(--second-text-color);
+}
+
+.studio {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+
+        color: var(--primary-text-color);
+}
+
+.portfolio {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: var(--primary-text-color);
+}
+
+.contact {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: var(--primary-text-color);
+}
+
+.hero {
+    background: #2F303A;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* or 136% */
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--primary-white-color);
+}
+
+.button {
+        background: #2196F3;
+        color: white;
+        border-radius: 4px;
+        border: none;
+        padding: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        font-family: 'Roboto';
+}
+
+.button:hover,
+.button:focus {
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: white;    
+}
+
+.btn {
+    background: #F5F4FA;
+    color: #212121;
+    border-radius: 4px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+
+.btn:hover, .btn:focus {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: white;
+}
+
+.visually-hidden {
+    position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
+}
+
+.section2 {
+    background: #F5F4FA;
+}
+
+address {
+    font-style: normal;
+}
+
+footer {
+    background: #2F303A;
+    color: #FFFFFF; 
+}

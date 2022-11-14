@@ -121,6 +121,7 @@ span {
   font-family: 'Roboto';
   text-align: center;
   height: 50px;
+  margin-top: 30px;
 }
 
 .button:hover,
@@ -163,7 +164,7 @@ span {
   margin: -1px;
 }
 
-.section2 {
+.section-our-team {
   background: #f5f4fa;
 }
 
@@ -187,3 +188,6 @@ background-color: aquamarine;
   margin: auto;
 }
 
+.style {
+  text-align: center;
+}

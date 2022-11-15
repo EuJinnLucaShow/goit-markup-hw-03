@@ -207,8 +207,12 @@ background-color: aquamarine;
   padding-bottom: 94px;
 }
 
-.our-team {
+.flexbox {
     display: flex;
     justify-content: space-around;
 }
 
+.heading-title {
+  text-align: center;  
+  padding-bottom: 50px;
+}

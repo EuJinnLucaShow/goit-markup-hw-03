@@ -206,3 +206,7 @@ background-color: aquamarine;
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.our-team {
+    display: flex;
+}

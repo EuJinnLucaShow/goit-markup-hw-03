@@ -201,3 +201,8 @@ background-color: aquamarine;
 .style {
   text-align: center;
 }
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}

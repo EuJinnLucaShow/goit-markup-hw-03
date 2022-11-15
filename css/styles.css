@@ -4,6 +4,16 @@
   --primary-white-color: #ffffff;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
 body {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -19,7 +29,7 @@ a {
 
 ul {
   margin: 0;
-  padding: 0;
+  padding-left: 0;
   list-style: none;
 }
 

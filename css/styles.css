@@ -209,4 +209,6 @@ background-color: aquamarine;
 
 .our-team {
     display: flex;
+    justify-content: space-around;
 }
+

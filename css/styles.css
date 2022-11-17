@@ -39,12 +39,23 @@ header .container {
   justify-content: space-around;
 }
 
-.logo {
+.header-list {
+  display: flex;
+}
+
+.header-cont {
+  margin-left: auto;
+}
+
+.header-logo {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: #2196f3;
+  margin-right: 93px;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 .logo-footer {
@@ -60,7 +71,8 @@ span {
   color: #2196f3;
 }
 
-.mail {
+.header-mail {
+  margin-right: 50px;
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
@@ -70,7 +82,7 @@ span {
   color: var(--second-text-color);
 }
 
-.tel {
+.header-tel {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
@@ -87,6 +99,10 @@ span {
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
+}
+
+.header-list > li:not(:last-child) {
+  margin-right: 50px;
 }
 
 .hero {
@@ -140,7 +156,10 @@ span {
   font-family: 'Roboto';
   text-align: center;
   height: 38px;
-  margin: 8px;
+}
+
+.portfolio-btn > li:not(:last-child) {
+  margin-right: 8px;
 }
 
 .btn:hover,
@@ -206,7 +225,7 @@ background-color: aquamarine;
   padding-bottom: 50px;
 }
 
-.flexbox2 {
+.portfolio-btn {
   display: flex;
   justify-content: center;
 }

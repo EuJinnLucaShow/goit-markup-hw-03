@@ -246,6 +246,7 @@ background-color: aquamarine;
   text-align: center;
   padding-bottom: 30px;
   padding-top: 30px;
+  border-top-style: none;
 }
 
 .portfolio-btn {
@@ -293,6 +294,7 @@ background-color: aquamarine;
   padding: 20px;
   background: #ffffff;
   border: 1px solid #eeeeee;
+  border-top-style: none;
 }
 
 .features {

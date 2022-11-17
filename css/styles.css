@@ -107,7 +107,9 @@ span {
 
 .hero {
   margin: 0;
-  padding: 0;
+  padding-top: 200px;
+  padding-bottom: 280px;
+  text-align: center;
   background: #2f303a;
 }
 
@@ -206,12 +208,7 @@ background-color: aquamarine;
   margin: 0 auto;
 }
 
-.hero-style {
-  text-align: center;
-}
-
 .section {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -220,14 +217,32 @@ background-color: aquamarine;
   justify-content: space-around;
 }
 
-.heading-title {
+.about-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
   text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
   padding-bottom: 50px;
+}
+
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-bottom: 50px;
+  padding-top: 94px;
 }
 
 .portfolio-btn {
   display: flex;
   justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .grid {
@@ -268,6 +283,10 @@ background-color: aquamarine;
   padding: 20px;
 }
 
+.features {
+  padding-top: 94px;
+}
+
 .features-list {
   width: 270px;
 }
@@ -282,6 +301,19 @@ background-color: aquamarine;
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
+}
+
+.footer-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+  /* padding-top: 60px;
+  padding-bottom: 20px; */
+
+  /* margin-top: 60px;
+  margin-bottom: 20px; */
 }
 
 /* .features-subtitle {

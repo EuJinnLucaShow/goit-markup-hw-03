@@ -246,7 +246,7 @@ background-color: aquamarine;
   text-align: center;
   padding-bottom: 30px;
   padding-top: 30px;
-  border-top-style: none;
+  border-top: initial;
 }
 
 .portfolio-btn {

@@ -200,7 +200,7 @@ background-color: aquamarine;
 } */
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -243,11 +243,10 @@ background-color: aquamarine;
 }
 
 .grid__item {
-  flex-basis: calc(100% / 3 - 16px);
-  min-width: 240px;
-  margin-right: 8px;
-  margin-left: 8px;
-  margin-bottom: 16px;
+  flex-basis: calc(100% / 3 - 30px);
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 30px;
   border: 1px solid #eeeeee;
 }
 

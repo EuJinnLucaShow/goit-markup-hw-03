@@ -261,10 +261,30 @@ background-color: aquamarine;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 
 .style {
   padding: 20px;
 }
+
+.features-list {
+  width: 270px;
+}
+
+.features-items > li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-top: 10px;
+}
+
+/* .features-subtitle {
+  margin-top: 94px;
+  margin-bottom: 94px;
+} */

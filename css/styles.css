@@ -214,7 +214,11 @@ background-color: aquamarine;
 
 .flexbox {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+}
+
+.flexbox > li:not(:last-child) {
+  margin-right: 30px;
 }
 
 .about-title {
@@ -309,12 +313,22 @@ background-color: aquamarine;
   margin-right: 30px;
 }
 
+.features-title {
+  font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+
 .features-text {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-top: 10px;
+  margin-top: 10px;flexbox
 }
 
 .footer-logo {
@@ -330,6 +344,25 @@ background-color: aquamarine;
   margin-bottom: 20px; */
 }
 
+.our-team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-bottom: 10px;
+}
+
+.our-team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
 /* .features-subtitle {
   margin-top: 94px;
   margin-bottom: 94px;

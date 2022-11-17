@@ -315,12 +315,12 @@ background-color: aquamarine;
 
 .features-title {
   font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-color: #212121;
+  color: #212121;
 }
 
 .features-text {
@@ -328,7 +328,7 @@ color: #212121;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-top: 10px;flexbox
+  margin-top: 10px;
 }
 
 .footer-logo {

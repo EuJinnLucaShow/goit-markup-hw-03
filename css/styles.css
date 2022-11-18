@@ -367,3 +367,39 @@ background-color: aquamarine;
   margin-top: 94px;
   margin-bottom: 94px;
 } */
+
+.footer-logo {
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.footer-address {
+  display: block;
+  padding-bottom: 9px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-tel {
+  display: block;
+  padding-bottom: 60px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-mail {
+  display: block;
+  padding-bottom: 9px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
